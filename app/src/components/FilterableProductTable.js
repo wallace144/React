@@ -3,6 +3,8 @@ import React from 'react'
 import SearchBar from './SearchBar.js'
 import ProductTable from './ProductTable.js'
 
+
+
 export default class FilterableProductTable extends React.Component {
 	constructor(){
 		super();	
@@ -11,7 +13,7 @@ export default class FilterableProductTable extends React.Component {
 	render(){
 		return(<div>
 				<SearchBar/>
-				<ProductTable/>				
+				<ProductTable products={this.props.store}/>				
 			</div>);
 	}
 }
