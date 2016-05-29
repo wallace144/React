@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 class Layout extends React.Component {
 	constructor(){
 		super();
-		this.nombre = "Liam";
+		this.nombre = "Liam, I love you";
 	}
 	getNombre(){
 		return this.nombre;
